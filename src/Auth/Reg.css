@@ -1,0 +1,89 @@
+.reg-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: auto;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  }
+
+
+  .reg-content {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .reg-logo {
+    width: auto;
+    height: 4rem;
+    border-radius: 12px;
+  }
+  
+  .reg-title {
+    margin-top: 0.75rem;
+    font-size: 1.5rem;
+    color: #333; /* Your desired text color */
+  }
+  
+  .reg-form {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .reg-label {
+    font-weight: bold;
+    font-size: 0.875rem;
+    color: #333; /* Your desired text color */
+  }
+  
+  .reg-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc; /* Your desired border color */
+    border-radius: 8px;
+    margin-top: 0.25rem;
+    font-size: 1rem;
+  }
+  
+  .reg-button {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: #007BFF; /* Your desired button background color */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .reg-button:hover {
+    background-color: #0056b3; /* Your desired button background color on hover */
+  }
+  
+  .reg-links {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .reg-link {
+    font-size: 0.75rem;
+    color: #007BFF; /* Your desired link color */
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .reg-link:hover {
+    color: #0056b3; /* Your desired link color on hover */
+  }
+  

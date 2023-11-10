@@ -1,0 +1,15 @@
+@tailwind utilities;
+
+
+.chatCbotbg{
+    background-image: linear-gradient(to right, rgba(16, 210, 210, 0.615) ,rgba(194, 54, 229, 0.423));
+}
+.outgoing{
+    float: inline-end;
+    background: #ffffff;
+    color: black;
+    padding: 3px;
+    border-radius: 12%;
+}
+
+
